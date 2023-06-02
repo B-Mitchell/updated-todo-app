@@ -1,0 +1,82 @@
+body {
+    background-color: #f1ecec;
+}
+* {
+    font-family: 'Times New Roman'
+}
+.nav {
+    background: linear-gradient( rgb(60, 23, 151) , #f1ecec);
+    top: 0;
+    width: 100%;
+    text-align: center;
+    padding: .6rem;
+    position: fixed;
+    
+}
+h2 {
+    color: black;
+    font-size: 2.5rem;
+}
+h3 {
+    color: black;
+    font-size: 4rem;
+}
+
+.listContainer {
+    display: block;
+    padding-top: 130px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.listItem {
+    /* background: linear-gradient( #f1ecec , rgb(60, 23, 151) ); */
+    list-style: georgian;
+    width: 100%;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: .6rem;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    
+} 
+.trash {
+    float: right;
+    display: block;
+    font-size: 2rem;
+    height: 100%;
+}
+.todoForm {
+    position: fixed;
+    bottom: 0;
+    height: 4.5rem;
+    background-color: #f1ecec;
+    width: 100%;
+    padding: 0;
+}
+.todoFormInput {
+    width: 68.5%;
+    height: 100%;
+    padding: .1rem;
+    border-radius: 1rem;
+    border-top: none;
+    outline: none;
+}
+.todoFormButton {
+    width: 30%;
+    font-size: 1rem;
+    height: 100%;
+    border-radius: .4rem;
+    border-width: 1px;
+    background: linear-gradient( rgb(60, 23, 151) , #f1ecec);
+}
+.todoFormInput:focus {
+    transition: .2s;
+    font-size: larger;
+}
+.todoFormButton:hover {
+    transition: .2s;
+    font-size: larger;
+}
